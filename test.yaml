@@ -1,0 +1,35 @@
+emailListLocation: C:/Users/zhuos/Desktop/PhD_stuff/Phishing_ticket_system/EmailResearchLab/testCSV.csv
+emailResourceLocation: C:/Users/zhuos/Desktop/PhD_stuff/Phishing_ticket_system/EmailResearchLab/ContentRelatedResources
+saveLocation: C:/Users/zhuos/Desktop/PhD_stuff/Phishing_ticket_system/EmailResearchLab/data
+sessions:
+  session1:
+    name: session1
+    duration: '15'
+    audioNotification: '1'
+    timeCountDown: true
+    hasPhishEmails: true
+    incomingEmails: true
+    incomingInterval: '0.1'
+    primaryTaskHtml: C:/Users/zhuos/Desktop/PhD_stuff/Phishing_ticket_system/EmailResearchLab/ContentRelatedResources/html/network.html
+    endSessionPopup: done!
+    starBtn: true
+    reportBtn: true
+    deleteBtn: true
+    unreadBtn: false
+    legitEmails:
+      emailListRange:
+        start: '101'
+        finish: '110'
+      shuffleEmails: true
+      incomingRange:
+        start: '111'
+        finish: '120'
+    phishEmails:
+      emailList: 1,2,3,4
+      randomLoc: false
+      emailListLocations: 2,4,6
+      shuffleEmails: true
+      emailListNum: '3'
+      incomingList: 5,6
+      incomingLocations: 1,2
+      incomingNum: '2'

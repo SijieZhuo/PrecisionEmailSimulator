@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <script src="qrc:///qtwebchannel/qwebchannel.js"></script>
+</head>
+<body>
+
+<div style="border: solid 1px; padding:10px; background-color:#f5faff;">
+	<p style="font-weight: bold;">1. You need to process each email carefully, and respond/reply to any emails that need to be responded.</p>
+	<p style="font-weight: bold;">2. You need to record any expenses of the VR Tech Expo in the table below.</p>
+	<div>
+		<style type="text/css">
+	.tg  {border-collapse:collapse;border-spacing:0;}
+	.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+	  overflow:hidden;padding:10px 5px;word-break:normal;}
+	.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+	  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+	.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top; width:100px;}
+
+		
+		</style>
+		<table class=tg>
+		<tr>
+			<td class="tg-0pky">Expenses</td>
+			<td class="tg-0pky" contenteditable="true"></td>
+			<td class="tg-0pky" contenteditable="true"></td>
+			<td class="tg-0pky" contenteditable="true"></td>
+			<td class="tg-0pky" contenteditable="true"></td>
+			<td class="tg-0pky" contenteditable="true"></td>
+			<td class="tg-0pky" contenteditable="true"></td>
+		</tr>
+		<tr>
+			<td class="tg-0pky">Cost (NZD$)</td>
+			<td class="tg-0pky" contenteditable="true"></td>
+			<td class="tg-0pky" contenteditable="true"></td>
+			<td class="tg-0pky" contenteditable="true"></td>
+			<td class="tg-0pky" contenteditable="true"></td>
+			<td class="tg-0pky" contenteditable="true"></td>
+			<td class="tg-0pky" contenteditable="true"></td>
+		</tr>
+		<tr style="height:100px;">
+			<td class="tg-0pky">Details</td>
+			<td class="tg-0pky" contenteditable="true"></td>
+			<td class="tg-0pky" contenteditable="true"></td>
+			<td class="tg-0pky" contenteditable="true"></td>
+			<td class="tg-0pky" contenteditable="true"></td>
+			<td class="tg-0pky" contenteditable="true"></td>
+			<td class="tg-0pky" contenteditable="true"></td>
+		</tr>
+		<tr>
+			<td>Sum (NZD$)</td>
+			<td class="tg-0pky" contenteditable="true"></td>
+		</tr>
+	</table>
+
+	</div>
+</div>
+
+</body>
+<script>
+        var data = null;
+        new QWebChannel(qt.webChannelTransport, function (channel) {
+            data = channel.objects.data;
+        });
+
+function tableToCSV() {
+
+            // Variable to store the final csv data
+            var csv_data = [];
+
+            // Get each row data
+            var rows = document.getElementsByTagName('tr');
+            for (var i = 0; i < rows.length; i++) {
+
+                // Get each column data
+                var cols = rows[i].querySelectorAll('td,th');
+
+                // Stores each csv row data
+                var csvrow = [];
+                for (var j = 0; j < cols.length; j++) {
+
+                    // Get the text data of each cell
+                    // of a row and push it to csvrow
+                    csvrow.push(cols[j].innerHTML);
+                }
+
+                // Combine each column value with comma
+                csv_data.push(csvrow.join("#$%"));
+            }
+
+            // Combine each row data with new line character
+            csv_data = csv_data.join('\n');
+
+            // Call this function to download csv file
+            data.value = csv_data;
+        }
+
+
+
+
+
+</script>
+</html>
