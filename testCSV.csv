@@ -1,23 +1,23 @@
 ID,name,from,to,title,content,attachment,star,time,readState,category,LinkOfInterests
-101,Test user 1,test@test.com,me,Email title 1,hotel.html,poster.pdf,FALSE,27-Sep,FALSE,InNone,4
-102,Test user 2,test@test.com,me,Email title 2,hotel.html,None,FALSE,27-Sep,FALSE,Task,2
-103,Test user 3,test@test.com,me,Email title 3,hotel.html,poster.pdf,FALSE,25-Sep,FALSE,ExNone,2
-104,Test user 4,test@test.com,me,Email title 4,hotel.html,None,FALSE,25-Sep,FALSE,ExNone,2
-105,Test user 5,test@test.com,me,Email title 5,hotel.html,None,FALSE,27-Sep,FALSE,InRel,1
-106,Test user 6,test@test.com,me,Email title 6,hotel.html,None,FALSE,25-Sep,FALSE,InNone,7
-107,Test user 7,test@test.com,me,Email title 7,hotel.html,None,FALSE,25-Sep,FALSE,Task,0
-108,Test user 8,test@test.com,me,Email title 8,hotel.html,None,FALSE,23-Sep,FALSE,ExNone,2
-109,Test user 9,test@test.com,me,Email title 9,hotel.html,None,FALSE,23-Sep,FALSE,InRel,0
-110,Test user 10,test@test.com,me,Email title 10,hotel.html,None,FALSE,23-Sep,FALSE,InNone,5
-111,Test user 11,test@test.com,me,Email title 11,hotel.html,None,FALSE,21-Sep,FALSE,InNone,5
-112,Test user 12,test@test.com,me,Email title 12,hotel.html,None,FALSE,20-Sep,FALSE,Task,0
-113,Test user 13,test@test.com,me,Email title 13,hotel.html,None,FALSE,20-Sep,FALSE,Task,0
-114,Test user 14,test@test.com,me,Email title 14,hotel.html,None,FALSE,18-Sep,FALSE,InRel,0
-115,Test user 15,test@test.com,me,Email title 15,hotel.html,None,FALSE,18-Sep,FALSE,InRel,0
-116,Test user 16,test@test.com,me,Email title 16,hotel.html,None,FALSE,18-Sep,FALSE,ExNone,5
-1,Phish1,phish@phishing.com,me,Phish Title 1,hotel.html,None,FALSE,19-Sep,FALSE,phish,1
-2,Phish2,phish@phishing.com,me,Phish Title 2,hotel.html,None,FALSE,20-Sep,FALSE,phish,2
-3,Phish3,phish@phishing.com,me,Phish Title 3,hotel.html,None,FALSE,21-Sep,FALSE,phish,3
-4,Phish4,phish@phishing.com,me,Phish Title 4,hotel.html,None,FALSE,22-Sep,FALSE,phish,4
-5,Phish5,phish@phishing.com,me,Phish Title 5,hotel.html,None,FALSE,23-Sep,FALSE,phish,5
-6,Phish6,phish@phishing.com,me,Phish Title 6,hotel.html,None,FALSE,24-Sep,FALSE,phish,6
+101,Test user 1,test@test.com,me,Email title 1,Test_Email.html,DemoAttachment.pdf,FALSE,27-Sep,FALSE,InNone,4
+102,Test user 2,test@test.com,me,Email title 2,Test_Email.html,None,FALSE,27-Sep,FALSE,Task,2
+103,Test user 3,test@test.com,me,Email title 3,Test_Email.html,"DemoAttachment.pdf,DemoAttachment.pdf",FALSE,25-Sep,FALSE,ExNone,2
+104,Test user 4,test@test.com,me,Email title 4,Test_Email.html,None,FALSE,25-Sep,FALSE,ExNone,2
+105,Test user 5,test@test.com,me,Email title 5,Test_Email.html,None,FALSE,27-Sep,FALSE,InRel,1
+106,Test user 6,test@test.com,me,Email title 6,Test_Email.html,None,FALSE,25-Sep,FALSE,InNone,7
+107,Test user 7,test@test.com,me,Email title 7,Test_Email.html,None,FALSE,25-Sep,FALSE,Task,0
+108,Test user 8,test@test.com,me,Email title 8,Test_Email.html,None,FALSE,23-Sep,FALSE,ExNone,2
+109,Test user 9,test@test.com,me,Email title 9,Test_Email.html,None,FALSE,23-Sep,FALSE,InRel,0
+110,Test user 10,test@test.com,me,Email title 10,Test_Email.html,None,FALSE,23-Sep,FALSE,InNone,5
+111,Test user 11,test@test.com,me,Email title 11,Test_Email.html,None,FALSE,21-Sep,FALSE,InNone,5
+112,Test user 12,test@test.com,me,Email title 12,Test_Email.html,None,FALSE,20-Sep,FALSE,Task,0
+113,Test user 13,test@test.com,me,Email title 13,Test_Email.html,None,FALSE,20-Sep,FALSE,Task,0
+114,Test user 14,test@test.com,me,Email title 14,Test_Email.html,None,FALSE,18-Sep,FALSE,InRel,0
+115,Test user 15,test@test.com,me,Email title 15,Test_Email.html,None,FALSE,18-Sep,FALSE,InRel,0
+116,Test user 16,test@test.com,me,Email title 16,Test_Email.html,None,FALSE,18-Sep,FALSE,ExNone,5
+1,Phish1,phish@phishing.com,me,Phish Title 1,Test_Email.html,None,FALSE,19-Sep,FALSE,phish,1
+2,Phish2,phish@phishing.com,me,Phish Title 2,Test_Email.html,None,FALSE,20-Sep,FALSE,phish,2
+3,Phish3,phish@phishing.com,me,Phish Title 3,Test_Email.html,None,FALSE,21-Sep,FALSE,phish,3
+4,Phish4,phish@phishing.com,me,Phish Title 4,Test_Email.html,None,FALSE,22-Sep,FALSE,phish,4
+5,Phish5,phish@phishing.com,me,Phish Title 5,Test_Email.html,None,FALSE,23-Sep,FALSE,phish,5
+6,Phish6,phish@phishing.com,me,Phish Title 6,Test_Email.html,None,FALSE,24-Sep,FALSE,phish,6

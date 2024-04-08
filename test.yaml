@@ -10,7 +10,7 @@ sessions:
     hasPhishEmails: true
     incomingEmails: true
     incomingInterval: '0.1'
-    primaryTaskHtml: C:/Users/zhuos/Desktop/PhD_stuff/Phishing_ticket_system/EmailResearchLab/ContentRelatedResources/html/network.html
+    primaryTaskHtml: C:/Users/zhuos/Desktop/PhD_stuff/Phishing_ticket_system/EmailResearchLab/test.html
     endSessionPopup: done!
     starBtn: true
     reportBtn: true
