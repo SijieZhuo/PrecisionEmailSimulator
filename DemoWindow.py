@@ -1,10 +1,11 @@
 import os
 import random
 
-from PySide2.QtUiTools import QUiLoader
-from PySide2.QtWidgets import QApplication, QMessageBox, QTableWidgetItem
-from PySide2 import QtGui, QtCore, QtWidgets
-from PySide2.QtWebEngineWidgets import QWebEngineView, QWebEnginePage
+from PySide6.QtUiTools import QUiLoader
+from PySide6.QtWidgets import QApplication, QMessageBox, QTableWidgetItem
+from PySide6 import QtGui, QtCore, QtWidgets
+from PySide6.QtWebEngineWidgets import QWebEngineView
+from PySide6.QtWebEngineCore import QWebEnginePage
 import pandas as pd
 import datetime
 from bs4 import BeautifulSoup
@@ -54,7 +55,7 @@ class DemoWindow(QtWidgets.QWidget):
 
     def __init__(self):
         super(DemoWindow, self).__init__()
-        self.ui = QUiLoader().load('UI_files/main_page.ui')
+        self.ui = QUiLoader().load('resources/UI_files/main_page.ui')
 
         self.folderPath = './data/'
         self.username = ''
