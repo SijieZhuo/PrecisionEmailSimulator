@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "email-research-lab"
+version = "2.0"
+authors = [
+    { name="Sijie Zhuo", email="sijie.zhuo@auckland.ac.nz" },
+    { name="Jared Recomendable", email="jrec291@aucklanduni.ac.nz" },
+]
+description = "Email phishing simulator used for conducting susceptibility to phishing."
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dynamic = ["dependencies"]
+
+[project.optional-dependencies]
+dev = [
+    "black"
+]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools]
+py-modules = []
