@@ -1,11 +1,11 @@
 import os
 import random
 
-from PySide6.QtUiTools import QUiLoader
-from PySide6.QtWidgets import QApplication, QMessageBox, QTableWidgetItem
-from PySide6 import QtGui, QtCore, QtWidgets
-from PySide6.QtWebEngineWidgets import QWebEngineView
-from PySide6.QtWebEngineCore import QWebEnginePage
+from PySide2.QtUiTools import QUiLoader
+from PySide2.QtWidgets import QApplication, QMessageBox, QTableWidgetItem
+from PySide2 import QtGui, QtCore, QtWidgets
+from PySide2.QtWebEngineWidgets import QWebEngineView, QWebEnginePage
+
 import pandas as pd
 import datetime
 from bs4 import BeautifulSoup
