@@ -8,12 +8,13 @@ from pathlib import Path
 import ast
 
 import pandas as pd
-from PySide2 import QtGui, QtCore, QtWidgets, QtWebChannel, QtWebEngineWidgets
-from PySide2.QtCore import QRectF, QSize, Qt
-from PySide2.QtGui import QIcon, QPixmap, QTextDocument
-from PySide2.QtUiTools import QUiLoader
-from PySide2.QtWebEngineWidgets import QWebEngineView, QWebEnginePage
-from PySide2.QtWidgets import QMessageBox, QTableWidgetItem, QStyleOptionViewItem, QApplication, QStyle
+from PySide6 import QtGui, QtCore, QtWidgets, QtWebChannel, QtWebEngineWidgets
+from PySide6.QtCore import QRectF, QSize, Qt
+from PySide6.QtGui import QIcon, QPixmap, QTextDocument
+from PySide6.QtUiTools import QUiLoader
+from PySide6.QtWebEngineWidgets import QWebEngineView
+from PySide6.QtWebEngineCore import QWebEnginePage
+from PySide6.QtWidgets import QMessageBox, QTableWidgetItem, QStyleOptionViewItem, QApplication, QStyle
 from pygame import mixer
 from win10toast import ToastNotifier
 import paramiko
