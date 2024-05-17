@@ -1,6 +1,6 @@
-emailListLocation: C:/Users/zhuos/Desktop/PhD_stuff/Phishing_ticket_system/EmailResearchLab/testCSV.csv
-emailResourceLocation: C:/Users/zhuos/Desktop/PhD_stuff/Phishing_ticket_system/EmailResearchLab/ContentRelatedResources
-saveLocation: C:/Users/zhuos/Desktop/PhD_stuff/Phishing_ticket_system/EmailResearchLab/data
+emailListLocation: testCSV.csv
+emailResourceLocation: ContentRelatedResources
+saveLocation: data
 sessions:
   session1:
     name: session1
@@ -8,9 +8,9 @@ sessions:
     audioNotification: '1'
     timeCountDown: true
     hasPhishEmails: true
-    incomingEmails: true
+    incomingEmails: false
     incomingInterval: '0.1'
-    primaryTaskHtml: C:/Users/zhuos/Desktop/PhD_stuff/Phishing_ticket_system/EmailResearchLab/test.html
+    primaryTaskHtml: test.html
     endSessionPopup: done!
     starBtn: true
     reportBtn: true
