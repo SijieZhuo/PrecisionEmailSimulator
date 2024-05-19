@@ -10,9 +10,11 @@ authors = [
     { name="Jared Recomendable", email="jrec291@aucklanduni.ac.nz" },
 ]
 description = "Email phishing simulator used for conducting susceptibility to phishing."
-requires-python = ">=3.11"
+requires-python = ">=3.8,<3.11"
 classifiers = [
     "Programming Language :: Python :: 3",
+    "Operating System :: Microsoft :: Windows :: Windows 10",
+    "Operating System :: Microsoft :: Windows :: Windows 11",
 ]
 dynamic = ["dependencies"]
 
