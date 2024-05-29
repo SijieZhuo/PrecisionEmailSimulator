@@ -5,7 +5,7 @@ from PySide2 import QtWidgets
 from PySide2.QtUiTools import QUiLoader
 from PySide2.QtWidgets import QApplication, QFileDialog, QMessageBox
 
-from EmailResearchLab import EmailResearchLab
+from PrecisionEmailSimulator import PrecisionEmailSimulator
 
 
 class ConfigPage(QtWidgets.QWidget):
@@ -195,9 +195,9 @@ class ConfigPage(QtWidgets.QWidget):
         target.update({field: trigger.isChecked()})
 
     def previewStudy(self):
-        emailManagementApp = EmailResearchLab()
-        emailManagementApp.setConfig(self.study)
-        emailManagementApp.ui.show()
+        emailApp = PrecisionEmailSimulator()
+        emailApp.setConfig(self.study)
+        emailApp.ui.show()
 
     # ========== getter ===============
     def getCurrentSession(self):

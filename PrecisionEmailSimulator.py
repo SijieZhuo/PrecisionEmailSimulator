@@ -20,10 +20,10 @@ from pathlib import Path
 import pickle
 
 
-class EmailResearchLab(QtWidgets.QWidget):
+class PrecisionEmailSimulator(QtWidgets.QWidget):
 
     def __init__(self):
-        super(EmailResearchLab, self).__init__()
+        super(PrecisionEmailSimulator, self).__init__()
         self.ui = QUiLoader().load('resources/UI_files/welcome.ui')
         self.study = None
         self.imotionConnection = True
@@ -305,6 +305,6 @@ class EmailResearchLab(QtWidgets.QWidget):
 
 if __name__ == '__main__':
     app = QApplication([])
-    mainWindow = EmailResearchLab()
+    mainWindow = PrecisionEmailSimulator()
     mainWindow.ui.show()
     app.exec_()
